@@ -1,0 +1,17 @@
+{
+  "name": "bootstrapdemo",
+  "version": "1.0.0",
+  "description": "Learning BootStrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "bootstrap",
+    "test",
+    "play",
+    "learn"
+  ],
+  "author": "Stéphane Dreyfus",
+  "license": "ISC"
+}
