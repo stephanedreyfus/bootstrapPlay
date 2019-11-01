@@ -1,5 +1,5 @@
 .container {
-    align-content: center;
+    text-align: center;
 }
 
 .col {
@@ -8,6 +8,8 @@
 
 .row {
     margin-top: 1em;
+    background: pink;
+    min-height: 5rem;
 }
 
 .inner {
@@ -18,5 +20,9 @@
 .inner-alt {
     background: gray;
     padding: 0.7 em;
+}
+
+.variable {
+    border: 1px solid black;
 }
 

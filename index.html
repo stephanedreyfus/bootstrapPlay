@@ -11,38 +11,6 @@
 </head>
 <body>
   <div class="container">
-    <!--Row with two equal columns-->
-    <div class="row">
-      <div class="col-md-6 block">Column Left
-        <div class="inner">col-md-6</div>
-      </div>
-      <div class="col-md-6 block">Column Right
-        <div class="inner-alt">cold-md-6</div>
-      </div>
-    </div>
-
-    <!-- Row with two columns divided in a 1:2 ratio -->
-    <div class="row">
-      <div class="col-md-4 block">Column Left</div>
-      <div class="col-md-8 block">Column Right</div>
-    </div>
-
-    <!-- Row with two columns in 2:3 ratio -->
-    <div class="row">
-      <div class="col-md-3 block">Column Left</div>
-      <div class="col-md-9 block">Column Right</div>
-    </div>
-
-    <!-- Row with two equal columns -->
-    <div class="row">
-      <div class="col">
-        <div class="inner">col</div>
-      </div>
-      <div class="col">
-        <div class="inner-alt">col</div>
-      </div>
-    </div>
-
     <!-- Row with three equal columns -->
     <div class="row">
       <div class="col">
@@ -67,6 +35,37 @@
           <div class="inner-alt">col</div>
       </div>
     </div>
+  </div>
+
+  <!-- Great nesting example -->
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-8">Column left</div>
+          <div class="col-sm-4">
+              <!--Column right with nested rows and columns-->
+              <div class="row">
+                  <div class="col-12">inner top</div>
+              </div>
+              <div class="row">
+                  <div class="col-6">inner bot left</div>
+                  <div class="col-6">inner bot right</div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Breakpoint example -->
+  <div class="container">
+      <div class="row justify-content-md-center">
+          <div class="col-md-3">Column left</div>
+          <div class="col-md-auto variable">Variable width column</div>
+          <div class="col-md-3">Column right</div>
+      </div>
+      <div class="row">
+          <div class="col">Column left</div>
+          <div class="col-auto variable">Variable width column: WIth a great deal of stuff to say</div>
+          <div class="col">Column right</div>
+      </div>
   </div>
 
   <!-- JS files: jQuery first, then Popper.js, then Bootstrap JS -->
